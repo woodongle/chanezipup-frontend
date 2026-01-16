@@ -5,10 +5,9 @@
 </div>
 
 ## 🚀프로젝트 소개
+> **Java / Spring 기반 백엔드 개발과 Vue 프론트엔드 연계를 경험한 교육 과정 팀 프로젝트**
 
-체인집업은 KOSA에서 진행한 교육에서 만든 프로젝트로 '계약 후 부실 시공과 같은 업체의 무책임한 행태를 방지할 수는 없을까?'에서 시작한 프로젝트입니다.
-
-사용자가 직접 업체의 시공사례와 후기를 확인하여 업체에게 연락하는 방식으로 구현했습니다.
+체인지업은 KOSA 교육 과정에서 진행한 프로젝트오, 계약 이후 발생하는 부실 시공과 같은 업체의 무책임을 완화하기 위해 기획되었습니다. 고객은 업체의 시공 사례와 실제 후기를 확인한 후 업체에 직접 견적을 요청할 수 있습니다.
 
 <hr>
 
@@ -20,38 +19,40 @@
 
 ### 🛠️기술 스택
 
-- **Environment**
-  - IntelliJ IDEA
-  - GitHub
-  - Notion
 - **Backend**
   - Java
   - Spring Boot
   - Spring Data JPA
 - **Frontend**
-  - HTML
-  - CSS
-  - JavaScript
+  - HTML / CSS / JavaScript
   - Vue.js
 - **Database**
-  - H2 Database
   - MySQL
-- **Infra & DevOps**
+  - H2 Database
+- **Infra & Collaboration**
   - AWS
-  - GitHub Actions
+  - GitHub
+  - Notion
 
 <hr>
 
-### ✨주요 기능
-
-- **견적 요청**
-  - 사용자가 자신의 인테리어 요구사항(예: 건물 종류, 예산, 공사 예정일)을 입력하여 견적 요청
-  - 요청된 견적에 따라 해당하는 업체 제안
-- **시공 사례 등록**
-  - 업체가 자신이 수행한 시공 사례를 등록
-  - 등록된 사례는 관리자 승인 후 사용자에게 공개
-- **시공 후기 등록**
-  - 사용자가 자신이 실제로 시공을 받은 업체에 대해 리뷰 작성
-  - 후기 작성은 시공 완료 이후에만 가능하며, 실제 시공 여부 확인 후 작성 가능
+### ✨주요 구현 내용
+- Java / Spring Boot 기반 REST API 설계 및 구현
+- Spring Data JPA를 활용한 엔티티 연관관계 및 CRUD 구현
+- Vue.js를 활용한 사용자 화면 구성 및 API 연동
+- Git과 Notion을 이용한 코드 관리 및 팀 협업
 
 <hr>
+
+### 🏗️ 아키텍처 개요
+
+- Backend와 Frontend를 분리한 구조로 API 중심 설계
+- Controller / Service / Repository 계층 분리
+- 공통 응답 포맷 통일
+
+<hr>
+
+### 📌 프로젝트를 통해 얻은 경험
+- Java / Spring Boot 기반 웹 애플리케이션의 전체 흐름 이해
+- 백엔드 API와 프론트엔드 간 데이터 연동 경험
+- 팀 프로젝트에서의 협업, 커뮤니케이션, 일정 관리 경험
